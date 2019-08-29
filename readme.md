@@ -6,7 +6,7 @@
 •	Python - Django
 •	HTML/ CSS
 •	JavaScript
-•	PostgreSQL
+•	(PostgreSQL)[https://www.postgresql.org/]
 •	Gunicorn
 •	Nginx
 
@@ -62,6 +62,6 @@
 # Useful Links
 •	(How To Set Up Django with Postgres, Nginx, and Gunicorn on Ubuntu 18.04)[https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-18-04]
 •	(How To Set Up a Virtual Environment in Python)[https://docs.python.org/3/library/venv.html]
-•	
-•	
+•	(How To Install and Use PostgreSQL on Ubuntu 18.04)[https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-18-04]
+•	(Django - Models)[https://docs.djangoproject.com/en/2.2/topics/db/models/]
 •	

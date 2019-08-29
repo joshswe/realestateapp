@@ -82,8 +82,11 @@ WSGI_APPLICATION = 'jhre.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'jhredb',
+        'USER': 'postgres',
+        'PASSWORD': '6779249',
+        'HOST': 'localhost'
     }
 }
 
