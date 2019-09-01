@@ -43,19 +43,20 @@
                     at quaerat
                     commodi id libero eveniet harum perferendis laborum molestias quia.</p>
             </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img class="card-img-top" src="assets/img/realtors/joshuahui.jpg" alt="Seller of the month">
-                    <div class="card-body">
-                        <h5 class="card-title">Seller Of The Month</h5>
-                        <h6 class="text-secondary">Joshua Hui</h6>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nesciunt
-                            amet, illo itaque similique repellat.
-                            content.
-                        </p>
+            {% if mvpRealtors %}
+                {% for realtor in mvpRealtors %}
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="{{ realtor.photo.url }}" alt="Seller of the month">
+                        <div class="card-body">
+                            <h5 class="card-title">Seller Of The Month</h5>
+                            <h6 class="text-secondary">{{ realtor.name }}</h6>
+                            <p class="card-text">{{ realtor.description }}</p>
+                        </div>
                     </div>
                 </div>
-            </div>
+                {% endfor %}
+            {% endif %}
         </div>
     </div>
 </section>
@@ -73,39 +74,23 @@
     <div class="container">
         <h2 class="text-center">Our Team</h2>
         <div class="row text-center">
-            <div class="col-md-4">
-                <img src="assets/img/realtors/joshuahui.jpg" alt="" class="rounded-circle mb-3">
-                <h4>Joshua Hui</h4>
-                <p class="text-success">
-                    <i class="fas fa-award text-success mb-3"></i> Realtor</p>
-                <hr>
-                <p>
-                    <i class="fas fa-phone"></i> (555)-555-5555</p>
-                <p>
-                    <i class="fas fa-envelope-open"></i> joshuahui@jhrealestate.co</p>
-            </div>
+            {% if realtors %}
+                {% for realtor in realtors %}
+                    <div class="col-md-4">
+                        <img src="{{ realtor.photo.url }}" alt="" class="rounded-circle mb-3">
+                        <h4>{{ realtor.name }}</h4>
+                        <p class="text-success">
+                            <i class="fas fa-award text-success mb-3"></i> Realtor</p>
+                        <hr>
+                        <p><i class="fas fa-phone"></i> {{ realtor.phone }}</p>
+                        <p><i class="fas fa-envelope-open"></i> {{ realtor.email }}</p>
+                    </div>
 
-            <div class="col-md-4">
-                <img src="assets/img/realtors/joshua.jpg" alt="" class="rounded-circle mb-3">
-                <h4>Joshua</h4>
-                <p class="text-success">Realtor</p>
-                <hr>
-                <p>
-                    <i class="fas fa-phone"></i> (444)-444-4444</p>
-                <p>
-                    <i class="fas fa-envelope-open"></i> joshua@jhrealestate.co</p>
-            </div>
+                {% endfor %}
 
-            <div class="col-md-4">
-                <img src="assets/img/realtors/josh.jpg" alt="" class="rounded-circle mb-3">
-                <h4>Josh</h4>
-                <p class="text-success">Realtor</p>
-                <hr>
-                <p>
-                    <i class="fas fa-phone"></i> (333)-333-3333</p>
-                <p>
-                    <i class="fas fa-envelope-open"></i> josh@jhrealestate.co</p>
-            </div>
+            {% else %}
+            <div class="col-md-12">No Realtors Available</div>
+            {% endif %}
         </div>
     </div>
 </section>

@@ -65,4 +65,5 @@ In this project, we are going to build a real estate application for a fictional
 - (How To Set Up a Virtual Environment in Python)[https://docs.python.org/3/library/venv.html]
 - (How To Install and Use PostgreSQL on Ubuntu 18.04)[https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-18-04]
 - (Django - Models)[https://docs.djangoproject.com/en/2.2/topics/db/models/]
-- 	
+- (Django Structure) [https://www.youtube.com/watch?v=u49eOt8XJA4]
+- (Django Pagination)[https://docs.djangoproject.com/en/2.2/topics/pagination/]
