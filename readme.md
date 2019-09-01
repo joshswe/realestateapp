@@ -37,7 +37,7 @@ In this project, we are going to build a real estate application for a fictional
 - Role based users (staff and non-staff)
 - Display listings in app with pagination
 - Ability to set listings to unpublished
-- Search listings by keyword, city, state, bedrooms and price (Homepage & search page)
+- Search listings by keyword (in description), city, state, bedrooms and price (Homepage & search page)
 - List realtors on about page with “seller of the month” (Control via admin)
 - Listing page should have fields listed below
 - Listing page should have 5 images with lightbox
