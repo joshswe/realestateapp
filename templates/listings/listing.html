@@ -3,7 +3,7 @@
 {% load humanize %}
 {% block title %} | {{ listing.title }} {% endblock %}
 {% block content %}
-<h1>Listing</h1>
+
 
 
 
@@ -41,6 +41,8 @@
 <section id="listing" class="py-4">
     <div class="container">
         <a href="{% url 'listings' %}" class="btn btn-light mb-4">Back To Listings</a>
+        <!-- Alerts -->
+        {% include 'partials/_alerts.html' %}
         <div class="row">
             <div class="col-md-9">
                 <!-- Home Main Image -->
@@ -142,7 +144,7 @@
                 <!-- Description -->
                 <div class="row mb-5">
                     <div class="col-md-12">
-                            {{ listing.description }}
+                        {{ listing.description }}
                     </div>
                 </div>
             </div>
@@ -172,18 +174,30 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form>
+                <form action="{% url 'contact' %}" method="POST">
+                    <!-- Add form tag and POST -->
+                    {% csrf_token %}
+                    {% if user.is_authenticated %}
+                    <input type="hidden" name="user_id" value="{{ user.id }}">
+                    {% else %}
+                    <input type="hidden" name="user_id" value="0">
+                    {% endif %}
+                    <input type="hidden" name="realtor_email" value="{{ listing.realtor }}">
+                    <input type="hidden" name="listing_id" value="{{ listing.id }}">
+
                     <div class="form-group">
                         <label for="property_name" class="col-form-label">Property:</label>
-                        <input type="text" name="listing" class="form-control" value="45 Drivewood Cirlce" disabled>
+                        <input type="text" name="listing" class="form-control" value="{{ listing.title }}">
                     </div>
                     <div class="form-group">
                         <label for="name" class="col-form-label">Name:</label>
-                        <input type="text" name="name" class="form-control" required>
+                        <input type="text" name="name" class="form-control" {% if user.is_authenticated %}
+                            value="{{ user.first_name }} {{ user.last_name }}" {% endif %} required>
                     </div>
                     <div class="form-group">
                         <label for="email" class="col-form-label">Email:</label>
-                        <input type="email" name="email" class="form-control" required>
+                        <input type="email" name="email" class="form-control" {% if user.is_authenticated %}
+                            value="{{ user.email }}" {% endif %} required>
                     </div>
                     <div class="form-group">
                         <label for="phone" class="col-form-label">Phone:</label>

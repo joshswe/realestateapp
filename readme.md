@@ -43,9 +43,10 @@ In this project, we are going to build a real estate application for a fictional
 - Listing page should have 5 images with lightbox
 - Lightbox should scroll through images
 - Listing page should have a form to submit inquiry for that property listing
-- Form info should go to database and notify realtor(s) with an email
+- Form info should go to database (and notify realtor(s) with an email, which is a future functionality)
 - Frontend register/login to track inquiries
 - Both unregistered and registered users can submit form. If registered, can only submit one per listing
+
 
 ## Listing Page Fields
 - Title
@@ -60,6 +61,24 @@ In this project, we are going to build a real estate application for a fictional
 - Realtor – Name & Image
 - Main image and 5 other images
 
+
+# Instructions
+## Create a new app
+For example you want to create an app called *contacts*:
+1. Start the *contacts* app using the command: `python manage.py startapp contacts`
+2. Add `contacts.apps.ContactsConfig` into the `INSTALLED_APPS` section inside **settings.py** within the project folder
+
+## Create Model(s) in the app
+For example you want to create a model in the *contacts* app:
+1. Go to **models.py** inside the *contacts* folder
+2. Create a class that define the model, visit (here)[https://docs.djangoproject.com/en/2.2/topics/db/models/] for more
+3. Run `python manage.py makemigrations contacts` to create a migration file see (here)[https://docs.djangoproject.com/en/2.2/topics/migrations/]
+4. Run `python manage.py migrate` to propagate changes you make to your model(s) into your database after the creation of the migration file
+
+## Add the newly created model into Django Admin
+- https://docs.djangoproject.com/en/2.2/ref/contrib/admin/
+
+
 # Useful Links
 - (How To Set Up Django with Postgres, Nginx, and Gunicorn on Ubuntu 18.04)[https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-18-04]
 - (How To Set Up a Virtual Environment in Python)[https://docs.python.org/3/library/venv.html]
@@ -69,3 +88,5 @@ In this project, we are going to build a real estate application for a fictional
 - (Django Pagination)[https://docs.djangoproject.com/en/2.2/topics/pagination/]
 - (Django Cross Site Request Forgery protection)[https://docs.djangoproject.com/en/2.2/ref/csrf/]
 - (Django Messages Framework)[https://docs.djangoproject.com/en/2.2/ref/contrib/messages/]
+- (Django Email)[https://docs.djangoproject.com/en/2.2/topics/email/]
+
