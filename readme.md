@@ -67,3 +67,5 @@ In this project, we are going to build a real estate application for a fictional
 - (Django - Models)[https://docs.djangoproject.com/en/2.2/topics/db/models/]
 - (Django Structure) [https://www.youtube.com/watch?v=u49eOt8XJA4]
 - (Django Pagination)[https://docs.djangoproject.com/en/2.2/topics/pagination/]
+- (Django Cross Site Request Forgery protection)[https://docs.djangoproject.com/en/2.2/ref/csrf/]
+- (Django Messages Framework)[https://docs.djangoproject.com/en/2.2/ref/contrib/messages/]
