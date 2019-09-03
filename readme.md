@@ -80,9 +80,12 @@ For example you want to create a model in the *contacts* app:
 
 
 # Useful Links
+## Setting Up
 - (How To Set Up Django with Postgres, Nginx, and Gunicorn on Ubuntu 18.04)[https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-18-04]
 - (How To Set Up a Virtual Environment in Python)[https://docs.python.org/3/library/venv.html]
 - (How To Install and Use PostgreSQL on Ubuntu 18.04)[https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-18-04]
+- (Step by Step Branch and Merge using VS Code)[https://github.com/159356-1702-Extramural/capstone/wiki/Step-by-Step-Branch-and-Merge-using-VS-Code]
+## Django Related
 - (Django - Models)[https://docs.djangoproject.com/en/2.2/topics/db/models/]
 - (Django Structure) [https://www.youtube.com/watch?v=u49eOt8XJA4]
 - (Django Pagination)[https://docs.djangoproject.com/en/2.2/topics/pagination/]
