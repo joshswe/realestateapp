@@ -87,7 +87,7 @@ For example you want to create a model in the *contacts* app:
 - [Step by Step Branch and Merge using VS Code](https://github.com/159356-1702-Extramural/capstone/wiki/Step-by-Step-Branch-and-Merge-using-VS-Code)
 ## Django Related
 - [Django - Models](https://docs.djangoproject.com/en/2.2/topics/db/models/)
-- [Django Structure)](https://www.youtube.com/watch?v=u49eOt8XJA4)
+- [Django Structure](https://www.youtube.com/watch?v=u49eOt8XJA4)
 - [Django Pagination](https://docs.djangoproject.com/en/2.2/topics/pagination/)
 - [Django Cross Site Request Forgery protection](https://docs.djangoproject.com/en/2.2/ref/csrf/)
 - [Django Messages Framework](https://docs.djangoproject.com/en/2.2/ref/contrib/messages/)
