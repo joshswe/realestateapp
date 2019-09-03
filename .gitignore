@@ -11,7 +11,7 @@ db.sqlite3
 /media
 venv
 /static
-diary.txt
+.vscode
 /jhre_theme
 /logo
 
