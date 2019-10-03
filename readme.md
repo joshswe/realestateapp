@@ -1,6 +1,7 @@
 # Real Estate App with Django
 In this project, we are going to build a real estate application for a fictional company called **JH Real Estate** (yes, JH means Joshua Hui!) using **Django**. A **HTML/CSS Bootstrap 4** theme will be used. This is a real working application with an admin area to manage resources including property listings, realtors and contact inquiries.
 
+Link to Demo: http://157.245.223.133
 
 # Languages/ Technologies used
 - Python 
