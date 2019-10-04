@@ -134,5 +134,5 @@ For example you want to create a model in the *contacts* app:
 pgadmin is very useful for validating the data and understanding the dataset, for more, please visit: https://www.pgadmin.org/
 
 <p align="center">
- <img src="/demo-pics/pgadmin.PNGG" width="392" height="685" title="pgadmin">
+ <img src="/demo-pics/pgadmin.PNG" width="392" height="685" title="pgadmin">
 </p>
