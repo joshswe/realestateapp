@@ -3,6 +3,24 @@ In this project, we are going to build a real estate application for a fictional
 
 Link to Demo: http://157.245.223.133
 
+[Home Page Picture](/demo-pics/jhre_home.PNG)
+
+- [Real Estate App with Django](#real-estate-app-with-django)
+- [Languages/ Technologies used](#languages--technologies-used)
+- [What is Django](#what-is-django)
+- [Joshua Hui (JH) Real Estate App Requirements](#joshua-hui--jh--real-estate-app-requirements)
+  * [Front-End Pages](#front-end-pages)
+  * [Functionality Specifications](#functionality-specifications)
+  * [Listing Page Fields](#listing-page-fields)
+- [Instructions](#instructions)
+  * [Create a new app](#create-a-new-app)
+  * [Create Model(s) in the app](#create-model-s--in-the-app)
+  * [Add the newly created model into Django Admin](#add-the-newly-created-model-into-django-admin)
+- [Useful Links](#useful-links)
+  * [Setting Up](#setting-up)
+  * [Django Related](#django-related)
+
+
 # Languages/ Technologies used
 - Python 
 - Django
