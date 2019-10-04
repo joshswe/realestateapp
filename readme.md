@@ -1,12 +1,9 @@
 # Real Estate App with Django
 In this project, we are going to build a real estate application for a fictional company called **JH Real Estate** (yes, JH means Joshua Hui!) using **Django**. A **HTML/CSS Bootstrap 4** theme will be used. This is a real working application with an admin area to manage resources including property listings, realtors and contact inquiries.
 
-Link to Demo: http://157.245.223.133
-
-[Home Page Picture](/demo-pics/jhre_home.PNG)
-
 - [Real Estate App with Django](#real-estate-app-with-django)
 - [Languages/ Technologies used](#languages--technologies-used)
+- [Demo](#demo)
 - [What is Django](#what-is-django)
 - [Joshua Hui (JH) Real Estate App Requirements](#joshua-hui--jh--real-estate-app-requirements)
   * [Front-End Pages](#front-end-pages)
@@ -29,6 +26,14 @@ Link to Demo: http://157.245.223.133
 - [PostgreSQL](https://www.postgresql.org/)
 - Gunicorn
 - Nginx
+
+
+# Demo
+
+Link to Demo: http://157.245.223.133
+
+![Home Page Picture](/demo-pics/jhre_home.PNG)
+
 
 # What is Django
 - [Django](https://www.djangoproject.com/) is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.
