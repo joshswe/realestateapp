@@ -16,6 +16,8 @@ In this project, we are going to build a real estate application for a fictional
 - [Useful Links](#useful-links)
   * [Setting Up](#setting-up)
   * [Django Related](#django-related)
+  * [pgadmin](#pgadmin)
+
 
 
 # Languages/ Technologies used
@@ -131,5 +133,5 @@ For example you want to create a model in the *contacts* app:
 ## pgadmin
 pgadmin is very useful for validating the data and understanding the dataset, for more, please visit: https://www.pgadmin.org/
 
-![pgadmin](/demo-pics/pgadmin)
+![pgadmin](/demo-pics/pgadmin.PNG)
 
