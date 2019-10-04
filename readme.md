@@ -128,3 +128,8 @@ For example you want to create a model in the *contacts* app:
 - [Django Messages Framework](https://docs.djangoproject.com/en/2.2/ref/contrib/messages/)
 - [Django Email](https://docs.djangoproject.com/en/2.2/topics/email/)
 
+## pgadmin
+pgadmin is very useful for validating the data and understanding the dataset, for more, please visit: https://www.pgadmin.org/
+
+![pgadmin](/demo-pics/pgadmin)
+
