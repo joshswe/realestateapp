@@ -36,6 +36,15 @@ Link to Demo: http://157.245.223.133
  <img src="/demo-pics/jhre_home.PNG" width="514" height="545" title="Home Page Picture">
 </p>
 
+Feel free to:
+- Browse through the web app
+- Register and login with your account (or you can test with this account: *joshtest* with password: *20191003*)
+- Click into the listing(s) to see more detail(s)
+- Make an inquiry in the listing(s)
+- Go to the dashboard to see a list of inquiries that you made
+- Do property searching
+- And more!
+
 
 # What is Django
 - [Django](https://www.djangoproject.com/) is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.
