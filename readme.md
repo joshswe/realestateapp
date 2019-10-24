@@ -1,5 +1,5 @@
 # Real Estate App with Django
-In this project, we are going to build a real estate application for a fictional company called **JH Real Estate** (yes, JH means Joshua Hui!) using **Django**. A **HTML/CSS Bootstrap 4** theme will be used. This is a real working application with an admin area to manage resources including property listings, realtors and contact inquiries.
+In this project, we are going to build a real estate application for a fictional company called **JH Real Estate** (yes, JH means Joshua Hui!) using **Django**. A **HTML/CSS Bootstrap 4** theme will be used. This is a real working application where the user can register an account, search for a real estate listing base on his/her preference(s) and make an inquiry of the listing; and the admin can manage resources including property listings, realtors and contact inquiries in the admin area.
 
 - [Real Estate App with Django](#real-estate-app-with-django)
 - [Languages/ Technologies used](#languages--technologies-used)
@@ -19,15 +19,17 @@ In this project, we are going to build a real estate application for a fictional
   * [pgadmin](#pgadmin)
 
 
-
 # Languages/ Technologies used
-- Python 
-- Django
-- HTML/ CSS
-- JavaScript
-- [PostgreSQL](https://www.postgresql.org/)
-- Gunicorn
-- Nginx
+- Backend
+ - Django
+ - PostgreSQL
+ - Gunicorn
+ - Nginx
+- Frontend
+ - HTML/CSS Bootstrap 4
+ - JavaScript
+- Deployment Server
+ - DigitalOcean
 
 
 # Demo
