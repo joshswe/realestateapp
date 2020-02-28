@@ -32,10 +32,6 @@ In this project, we are going to build a real estate application for a fictional
  - DigitalOcean
 
 
-# Demo
-
-Link to Demo: http://157.245.223.133
-
 <p align="center">
  <img src="/demo-pics/jhre_home.PNG" width="514" height="545" title="Home Page Picture">
 </p>
